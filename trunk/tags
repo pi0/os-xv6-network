@@ -1,0 +1,900 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+ALT	kbd.h	11;"	d
+AS	Makefile	/^AS = $(TOOLPREFIX)gas$/;"	m
+ASFLAGS	Makefile	/^ASFLAGS = -m32$/;"	m
+ASSERT	lapic.c	22;"	d	file:
+Align	umalloc.c	/^typedef long Align;$/;"	t	file:
+BACK	sh.c	12;"	d	file:
+BACKSPACE	console.c	17;"	d	file:
+BBLOCK	fs.h	47;"	d
+BCAST	lapic.c	24;"	d	file:
+BPB	fs.h	44;"	d
+BSIZE	fs.h	8;"	d
+B_BUSY	buf.h	10;"	d
+B_DIRTY	buf.h	12;"	d
+B_VALID	buf.h	11;"	d
+C	console.c	194;"	d	file:
+C	kbd.h	32;"	d
+CAPSLOCK	kbd.h	13;"	d
+CC	Makefile	/^CC = $(TOOLPREFIX)gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -fno-builtin -O2 -Wall -MD -ggdb -m32$/;"	m
+CONSOLE	dev.h	8;"	d
+CRTPORT	console.c	15;"	d	file:
+CTL	kbd.h	10;"	d
+DELIVS	lapic.c	21;"	d	file:
+DIRSIZ	fs.h	50;"	d
+DPL_USER	mmu.h	58;"	d
+E0ESC	kbd.h	17;"	d
+ELF_MAGIC	elf.h	3;"	d
+ELF_PROG_FLAG_EXEC	elf.h	40;"	d
+ELF_PROG_FLAG_READ	elf.h	42;"	d
+ELF_PROG_FLAG_WRITE	elf.h	41;"	d
+ELF_PROG_LOAD	elf.h	37;"	d
+EMBRYO	proc.h	/^enum proc_state { UNUSED, EMBRYO, SLEEPING, RUNNABLE, RUNNING, ZOMBIE };$/;"	e	enum:proc_state
+ENABLE	lapic.c	16;"	d	file:
+EOI	lapic.c	14;"	d	file:
+ERROR	lapic.c	32;"	d	file:
+ESR	lapic.c	17;"	d	file:
+EXEC	sh.c	8;"	d	file:
+FD_CLOSED	file.h	/^  enum { FD_CLOSED, FD_NONE, FD_PIPE, FD_INODE } type;$/;"	e	enum:file::__anon1
+FD_INODE	file.h	/^  enum { FD_CLOSED, FD_NONE, FD_PIPE, FD_INODE } type;$/;"	e	enum:file::__anon1
+FD_NONE	file.h	/^  enum { FD_CLOSED, FD_NONE, FD_PIPE, FD_INODE } type;$/;"	e	enum:file::__anon1
+FD_PIPE	file.h	/^  enum { FD_CLOSED, FD_NONE, FD_PIPE, FD_INODE } type;$/;"	e	enum:file::__anon1
+FILES	Makefile	/^FILES = $(shell grep -v '^\\#' runoff.list)$/;"	m
+FL_AC	mmu.h	22;"	d
+FL_AF	mmu.h	7;"	d
+FL_CF	mmu.h	5;"	d
+FL_DF	mmu.h	12;"	d
+FL_ID	mmu.h	25;"	d
+FL_IF	mmu.h	11;"	d
+FL_IOPL_0	mmu.h	15;"	d
+FL_IOPL_1	mmu.h	16;"	d
+FL_IOPL_2	mmu.h	17;"	d
+FL_IOPL_3	mmu.h	18;"	d
+FL_IOPL_MASK	mmu.h	14;"	d
+FL_NT	mmu.h	19;"	d
+FL_OF	mmu.h	13;"	d
+FL_PF	mmu.h	6;"	d
+FL_RF	mmu.h	20;"	d
+FL_SF	mmu.h	9;"	d
+FL_TF	mmu.h	10;"	d
+FL_VIF	mmu.h	23;"	d
+FL_VIP	mmu.h	24;"	d
+FL_VM	mmu.h	21;"	d
+FL_ZF	mmu.h	8;"	d
+Header	umalloc.c	/^typedef union header Header;$/;"	t	typeref:union:header	file:
+IBLOCK	fs.h	41;"	d
+ICRHI	lapic.c	25;"	d	file:
+ICRLO	lapic.c	18;"	d	file:
+ID	lapic.c	11;"	d	file:
+IDE_BSY	ide.c	13;"	d	file:
+IDE_CMD_READ	ide.c	18;"	d	file:
+IDE_CMD_WRITE	ide.c	19;"	d	file:
+IDE_DF	ide.c	15;"	d	file:
+IDE_DRDY	ide.c	14;"	d	file:
+IDE_ERR	ide.c	16;"	d	file:
+INDIRECT	fs.h	19;"	d
+INIT	lapic.c	19;"	d	file:
+INPUT_BUF	console.c	185;"	d	file:
+INT_ACTIVELOW	ioapic.c	22;"	d	file:
+INT_DISABLED	ioapic.c	20;"	d	file:
+INT_LEVEL	ioapic.c	21;"	d	file:
+INT_LOGICAL	ioapic.c	23;"	d	file:
+IOAPIC	ioapic.c	9;"	d	file:
+IO_PIC1	picirq.c	8;"	d	file:
+IO_PIC2	picirq.c	9;"	d	file:
+IO_RTC	lapic.c	133;"	d	file:
+IO_TIMER1	timer.c	10;"	d	file:
+IPB	fs.h	38;"	d
+IRQ_ERROR	traps.h	35;"	d
+IRQ_IDE	traps.h	34;"	d
+IRQ_KBD	traps.h	33;"	d
+IRQ_OFFSET	traps.h	30;"	d
+IRQ_SLAVE	picirq.c	11;"	d	file:
+IRQ_SPURIOUS	traps.h	36;"	d
+IRQ_TIMER	traps.h	32;"	d
+I_BUSY	fsvar.h	17;"	d
+I_VALID	fsvar.h	18;"	d
+KBDATAP	kbd.h	5;"	d
+KBSTATP	kbd.h	3;"	d
+KBS_DIB	kbd.h	4;"	d
+KEY_DEL	kbd.h	29;"	d
+KEY_DN	kbd.h	23;"	d
+KEY_END	kbd.h	21;"	d
+KEY_HOME	kbd.h	20;"	d
+KEY_INS	kbd.h	28;"	d
+KEY_LF	kbd.h	24;"	d
+KEY_PGDN	kbd.h	27;"	d
+KEY_PGUP	kbd.h	26;"	d
+KEY_RT	kbd.h	25;"	d
+KEY_UP	kbd.h	22;"	d
+KSTACKSIZE	param.h	3;"	d
+LD	Makefile	/^LD = $(TOOLPREFIX)ld$/;"	m
+LEVEL	lapic.c	23;"	d	file:
+LINT0	lapic.c	30;"	d	file:
+LINT1	lapic.c	31;"	d	file:
+LIST	sh.c	11;"	d	file:
+LPTPORT	console.c	16;"	d	file:
+MASKED	lapic.c	33;"	d	file:
+MAXARGS	sh.c	14;"	d	file:
+MAXFILE	fs.h	21;"	d
+MPBOOT	mp.h	34;"	d
+MPBUS	mp.h	50;"	d
+MPIOAPIC	mp.h	51;"	d
+MPIOINTR	mp.h	52;"	d
+MPLINTR	mp.h	53;"	d
+MPPROC	mp.h	49;"	d
+NADDRS	fs.h	17;"	d
+NBUF	param.h	7;"	d
+NCPU	param.h	4;"	d
+NDEV	param.h	9;"	d
+NDIRECT	fs.h	18;"	d
+NELEM	defs.h	148;"	d
+NFILE	param.h	6;"	d
+NINDIRECT	fs.h	20;"	d
+NINODE	param.h	8;"	d
+NO	kbd.h	7;"	d
+NOFILE	param.h	5;"	d
+NPROC	param.h	1;"	d
+NSEGS	proc.h	7;"	d
+NUMLOCK	kbd.h	14;"	d
+OBJCOPY	Makefile	/^OBJCOPY = $(TOOLPREFIX)objcopy$/;"	m
+OBJDUMP	Makefile	/^OBJDUMP = $(TOOLPREFIX)objdump$/;"	m
+OBJS	Makefile	/^OBJS = \\$/;"	m
+O_CREATE	fcntl.h	4;"	d
+O_RDONLY	fcntl.h	1;"	d
+O_RDWR	fcntl.h	3;"	d
+O_WRONLY	fcntl.h	2;"	d
+PAGE	param.h	2;"	d
+PCINT	lapic.c	29;"	d	file:
+PERIODIC	lapic.c	28;"	d	file:
+PIPE	sh.c	10;"	d	file:
+PIPESIZE	pipe.c	9;"	d	file:
+PRINT	Makefile	/^PRINT = runoff.list $(FILES)$/;"	m
+REDIR	sh.c	9;"	d	file:
+REG_ID	ioapic.c	11;"	d	file:
+REG_TABLE	ioapic.c	13;"	d	file:
+REG_VER	ioapic.c	12;"	d	file:
+ROOTDEV	param.h	10;"	d
+RUNNABLE	proc.h	/^enum proc_state { UNUSED, EMBRYO, SLEEPING, RUNNABLE, RUNNING, ZOMBIE };$/;"	e	enum:proc_state
+RUNNING	proc.h	/^enum proc_state { UNUSED, EMBRYO, SLEEPING, RUNNABLE, RUNNING, ZOMBIE };$/;"	e	enum:proc_state
+SCROLLLOCK	kbd.h	15;"	d
+SECTSIZE	bootmain.c	12;"	d	file:
+SEG	mmu.h	48;"	d
+SEG16	mmu.h	53;"	d
+SEG_ASM	asm.h	9;"	d
+SEG_KCODE	proc.h	2;"	d
+SEG_KDATA	proc.h	3;"	d
+SEG_NULL	mmu.h	45;"	d
+SEG_NULLASM	asm.h	5;"	d
+SEG_TSS	proc.h	6;"	d
+SEG_UCODE	proc.h	4;"	d
+SEG_UDATA	proc.h	5;"	d
+SETGATE	mmu.h	144;"	d
+SHIFT	kbd.h	9;"	d
+SLEEPING	proc.h	/^enum proc_state { UNUSED, EMBRYO, SLEEPING, RUNNABLE, RUNNING, ZOMBIE };$/;"	e	enum:proc_state
+STARTUP	lapic.c	20;"	d	file:
+STA_A	asm.h	19;"	d
+STA_A	mmu.h	66;"	d
+STA_C	asm.h	16;"	d
+STA_C	mmu.h	63;"	d
+STA_E	asm.h	15;"	d
+STA_E	mmu.h	62;"	d
+STA_R	asm.h	18;"	d
+STA_R	mmu.h	65;"	d
+STA_W	asm.h	17;"	d
+STA_W	mmu.h	64;"	d
+STA_X	asm.h	14;"	d
+STA_X	mmu.h	61;"	d
+STS_CG16	mmu.h	72;"	d
+STS_CG32	mmu.h	78;"	d
+STS_IG16	mmu.h	74;"	d
+STS_IG32	mmu.h	79;"	d
+STS_LDT	mmu.h	70;"	d
+STS_T16A	mmu.h	69;"	d
+STS_T16B	mmu.h	71;"	d
+STS_T32A	mmu.h	76;"	d
+STS_T32B	mmu.h	77;"	d
+STS_TG	mmu.h	73;"	d
+STS_TG16	mmu.h	75;"	d
+STS_TG32	mmu.h	80;"	d
+STUB	usys.S	/^#define STUB(name) \\$/;"	d
+SVR	lapic.c	15;"	d	file:
+SYS_chdir	syscall.h	17;"	d
+SYS_close	syscall.h	8;"	d
+SYS_dup	syscall.h	18;"	d
+SYS_exec	syscall.h	10;"	d
+SYS_exit	syscall.h	3;"	d
+SYS_fork	syscall.h	2;"	d
+SYS_fstat	syscall.h	14;"	d
+SYS_getpid	syscall.h	19;"	d
+SYS_kill	syscall.h	9;"	d
+SYS_link	syscall.h	15;"	d
+SYS_mkdir	syscall.h	16;"	d
+SYS_mknod	syscall.h	12;"	d
+SYS_open	syscall.h	11;"	d
+SYS_pipe	syscall.h	5;"	d
+SYS_read	syscall.h	7;"	d
+SYS_sbrk	syscall.h	20;"	d
+SYS_sleep	syscall.h	21;"	d
+SYS_unlink	syscall.h	13;"	d
+SYS_wait	syscall.h	4;"	d
+SYS_write	syscall.h	6;"	d
+TCCR	lapic.c	35;"	d	file:
+TDCR	lapic.c	36;"	d	file:
+TICR	lapic.c	34;"	d	file:
+TIMER	lapic.c	26;"	d	file:
+TIMER_16BIT	timer.c	22;"	d	file:
+TIMER_DIV	timer.c	17;"	d	file:
+TIMER_FREQ	timer.c	16;"	d	file:
+TIMER_MODE	timer.c	19;"	d	file:
+TIMER_RATEGEN	timer.c	21;"	d	file:
+TIMER_SEL0	timer.c	20;"	d	file:
+TOOLPREFIX	Makefile	/^TOOLPREFIX = $/;"	m
+TPR	lapic.c	13;"	d	file:
+T_ALIGN	traps.h	21;"	d
+T_BOUND	traps.h	9;"	d
+T_BRKPT	traps.h	7;"	d
+T_DBLFLT	traps.h	12;"	d
+T_DEBUG	traps.h	5;"	d
+T_DEFAULT	traps.h	28;"	d
+T_DEV	fs.h	35;"	d
+T_DEVICE	traps.h	11;"	d
+T_DIR	fs.h	33;"	d
+T_DIVIDE	traps.h	4;"	d
+T_FILE	fs.h	34;"	d
+T_FPERR	traps.h	20;"	d
+T_GPFLT	traps.h	17;"	d
+T_ILLOP	traps.h	10;"	d
+T_MCHK	traps.h	22;"	d
+T_NMI	traps.h	6;"	d
+T_OFLOW	traps.h	8;"	d
+T_PGFLT	traps.h	18;"	d
+T_SEGNP	traps.h	15;"	d
+T_SIMDERR	traps.h	23;"	d
+T_STACK	traps.h	16;"	d
+T_SYSCALL	traps.h	27;"	d
+T_TSS	traps.h	14;"	d
+ULIB	Makefile	/^ULIB = ulib.o usys.o printf.o umalloc.o$/;"	m
+UNUSED	proc.h	/^enum proc_state { UNUSED, EMBRYO, SLEEPING, RUNNABLE, RUNNING, ZOMBIE };$/;"	e	enum:proc_state
+UPROGS	Makefile	/^UPROGS=\\$/;"	m
+VER	lapic.c	12;"	d	file:
+X1	lapic.c	27;"	d	file:
+ZOMBIE	proc.h	/^enum proc_state { UNUSED, EMBRYO, SLEEPING, RUNNABLE, RUNNING, ZOMBIE };$/;"	e	enum:proc_state
+_namei	fs.c	/^_namei(char *path, int parent, char *name)$/;"	f	file:
+acquire	spinlock.c	/^acquire(struct spinlock *lock)$/;"	f
+addr	mp.h	/^  uint *addr;                  \/\/ I\/O APIC address$/;"	m	struct:mpioapic
+addrs	fs.h	/^  uint addrs[NADDRS];   \/\/ Data block addresses$/;"	m	struct:dinode
+addrs	fsvar.h	/^  uint addrs[NADDRS];$/;"	m	struct:inode
+align	elf.h	/^  uint align;$/;"	m	struct:proghdr
+allocproc	proc.c	/^allocproc(void)$/;"	f	file:
+alltraps	trapasm.S	/^alltraps:$/;"	l
+apicid	mp.h	/^  uchar apicid;                 \/\/ local APIC id$/;"	m	struct:mpproc
+apicid	proc.h	/^  uchar apicid;               \/\/ Local APIC ID$/;"	m	struct:cpu
+apicno	mp.h	/^  uchar apicno;                 \/\/ I\/O APIC id$/;"	m	struct:mpioapic
+argfd	sysfile.c	/^argfd(int n, int *pfd, struct file **pf)$/;"	f	file:
+argint	syscall.c	/^argint(int n, int *ip)$/;"	f
+argptr	syscall.c	/^argptr(int n, char **pp, int size)$/;"	f
+args	mmu.h	/^  uint args : 5;        \/\/ # args, 0 for interrupt\/trap gates$/;"	m	struct:gatedesc
+argstr	syscall.c	/^argstr(int n, char **pp)$/;"	f
+argv	initcode.S	/^argv:$/;"	l
+argv	sh.c	/^  char *argv[MAXARGS];$/;"	m	struct:execcmd	file:
+atoi	ulib.c	/^atoi(const char *s)$/;"	f
+avl	mmu.h	/^  uint avl : 1;        \/\/ Unused (available for software use)$/;"	m	struct:segdesc
+backcmd	sh.c	/^backcmd(struct cmd *subcmd)$/;"	f
+backcmd	sh.c	/^struct backcmd {$/;"	s	file:
+balloc	fs.c	/^balloc(uint dev)$/;"	f	file:
+balloc	mkfs.c	/^balloc(int used)$/;"	f
+base	umalloc.c	/^static Header base;$/;"	v	file:
+base_15_0	mmu.h	/^  uint base_15_0 : 16; \/\/ Low bits of segment base address$/;"	m	struct:segdesc
+base_23_16	mmu.h	/^  uint base_23_16 : 8; \/\/ Middle bits of segment base address$/;"	m	struct:segdesc
+base_31_24	mmu.h	/^  uint base_31_24 : 8; \/\/ High bits of segment base address$/;"	m	struct:segdesc
+bcpu	mp.c	/^static struct cpu *bcpu;$/;"	v	typeref:struct:cpu	file:
+bfree	fs.c	/^bfree(int dev, uint b)$/;"	f	file:
+bget	bio.c	/^bget(uint dev, uint sector)$/;"	f	file:
+bigdir	usertests.c	/^bigdir(void)$/;"	f
+bigfile	usertests.c	/^bigfile(void)$/;"	f
+binit	bio.c	/^binit(void)$/;"	f
+bitblocks	mkfs.c	/^uint bitblocks;$/;"	v
+bmap	fs.c	/^bmap(struct inode *ip, uint bn, int alloc)$/;"	f	file:
+booted	proc.h	/^  volatile uint booted;        \/\/ Has the CPU started?$/;"	m	struct:cpu
+bootmain	bootmain.c	/^bootmain(void)$/;"	f
+bootothers	main.c	/^bootothers(void)$/;"	f	file:
+bread	bio.c	/^bread(uint dev, uint sector)$/;"	f
+brelse	bio.c	/^brelse(struct buf *b)$/;"	f
+buf	bio.c	/^struct buf buf[NBUF];$/;"	v	typeref:struct:buf
+buf	buf.h	/^struct buf {$/;"	s
+buf	cat.c	/^char buf[512];$/;"	v
+buf	console.c	/^  char buf[INPUT_BUF];$/;"	m	struct:__anon2	file:
+buf	grep.c	/^char buf[1024];$/;"	v
+buf	usertests.c	/^char buf[2048];$/;"	v
+buf	wc.c	/^char buf[512];$/;"	v
+buf_table_lock	bio.c	/^struct spinlock buf_table_lock;$/;"	v	typeref:struct:spinlock
+bufhead	bio.c	/^struct buf bufhead;$/;"	v	typeref:struct:buf
+bwrite	bio.c	/^bwrite(struct buf *b)$/;"	f
+bzero	fs.c	/^bzero(int dev, int bno)$/;"	f	file:
+cat	cat.c	/^cat(int fd)$/;"	f
+cat_args	usertests.c	/^char *cat_args[] = { "cat", "README", 0 };$/;"	v
+cga_putc	console.c	/^cga_putc(int c)$/;"	f	file:
+chan	proc.h	/^  void *chan;               \/\/ If non-zero, sleeping on chan$/;"	m	struct:proc
+checksum	mp.h	/^  uchar checksum;               \/\/ all bytes must add up to 0$/;"	m	struct:mp
+checksum	mp.h	/^  uchar checksum;               \/\/ all bytes must add up to 0$/;"	m	struct:mpconf
+cli	x86.h	/^cli(void)$/;"	f
+cmd	sh.c	/^  struct cmd *cmd;$/;"	m	struct:backcmd	typeref:struct:backcmd::cmd	file:
+cmd	sh.c	/^  struct cmd *cmd;$/;"	m	struct:redircmd	typeref:struct:redircmd::cmd	file:
+cmd	sh.c	/^struct cmd {$/;"	s	file:
+concreate	usertests.c	/^concreate(void)$/;"	f
+cons_putc	console.c	/^cons_putc(int c)$/;"	f
+console_init	console.c	/^console_init(void)$/;"	f
+console_intr	console.c	/^console_intr(int (*getc)(void))$/;"	f
+console_lock	console.c	/^static struct spinlock console_lock;$/;"	v	typeref:struct:spinlock	file:
+console_read	console.c	/^console_read(struct inode *ip, char *dst, int n)$/;"	f
+console_write	console.c	/^console_write(struct inode *ip, char *buf, int n)$/;"	f
+context	proc.h	/^  struct context context;     \/\/ Switch here to enter scheduler$/;"	m	struct:cpu	typeref:struct:cpu::context
+context	proc.h	/^  struct context context;   \/\/ Switch here to run process$/;"	m	struct:proc	typeref:struct:proc::context
+context	proc.h	/^struct context {$/;"	s
+copyproc	proc.c	/^copyproc(struct proc *p)$/;"	f
+cp	proc.h	69;"	d
+cprintf	console.c	/^cprintf(char *fmt, ...)$/;"	f
+cpu	lapic.c	/^cpu(void)$/;"	f
+cpu	proc.h	/^struct cpu {$/;"	s
+cpu	spinlock.h	/^  int  cpu;      \/\/ The number of the cpu holding the lock.$/;"	m	struct:spinlock
+cpus	mp.c	/^struct cpu cpus[NCPU];$/;"	v	typeref:struct:cpu
+cr3	mmu.h	/^  void *cr3;         \/\/ Page directory base$/;"	m	struct:taskstate
+create	sysfile.c	/^create(char *path, int canexist, short type, short major, short minor)$/;"	f	file:
+createdelete	usertests.c	/^createdelete(void)$/;"	f
+createtest	usertests.c	/^createtest(void)$/;"	f
+crt	console.c	/^static ushort *crt = (ushort*)0xb8000;  \/\/ CGA memory$/;"	v	file:
+cs	mmu.h	/^  uint cs : 16;         \/\/ code segment selector$/;"	m	struct:gatedesc
+cs	mmu.h	/^  ushort cs;$/;"	m	struct:taskstate
+cs	x86.h	/^  ushort cs;$/;"	m	struct:trapframe
+ctlmap	kbd.h	/^static uchar ctlmap[256] =$/;"	v
+curproc	proc.c	/^curproc(void)$/;"	f
+curproc	proc.h	/^  struct proc *curproc;       \/\/ Process currently running.$/;"	m	struct:cpu	typeref:struct:cpu::proc
+cwd	proc.h	/^  struct inode *cwd;        \/\/ Current directory$/;"	m	struct:proc	typeref:struct:proc::inode
+data	buf.h	/^  uchar data[512];$/;"	m	struct:buf
+data	ioapic.c	/^  uint data;$/;"	m	struct:ioapic	file:
+data	pipe.c	/^  char data[PIPESIZE];$/;"	m	struct:pipe	file:
+db	mmu.h	/^  uint db : 1;         \/\/ 0 = 16-bit segment, 1 = 32-bit segment$/;"	m	struct:segdesc
+dev	buf.h	/^  uint dev;$/;"	m	struct:buf
+dev	fsvar.h	/^  uint dev;           \/\/ Device number$/;"	m	struct:inode
+dev	stat.h	/^  int dev;     \/\/ Device number$/;"	m	struct:stat
+devsw	dev.h	/^struct devsw {$/;"	s
+devsw	file.c	/^struct devsw devsw[NDEV];$/;"	v	typeref:struct:devsw
+dinode	fs.h	/^struct dinode {$/;"	s
+dirent	fs.h	/^struct dirent {$/;"	s
+dirfile	usertests.c	/^dirfile(void)$/;"	f
+dirlink	fs.c	/^dirlink(struct inode *dp, char *name, uint ino)$/;"	f
+dirlookup	fs.c	/^dirlookup(struct inode *dp, char *name, uint *poff)$/;"	f
+dirtest	usertests.c	/^void dirtest(void)$/;"	f
+disk_1_present	ide.c	/^static int disk_1_present;$/;"	v	file:
+dpl	mmu.h	/^  uint dpl : 2;         \/\/ descriptor(meaning new) privilege level$/;"	m	struct:gatedesc
+dpl	mmu.h	/^  uint dpl : 2;        \/\/ Descriptor Privilege Level$/;"	m	struct:segdesc
+ds	mmu.h	/^  ushort ds;$/;"	m	struct:taskstate
+ds	x86.h	/^  ushort ds;$/;"	m	struct:trapframe
+e	console.c	/^  uint e;  \/\/ Edit index$/;"	m	struct:__anon2	file:
+eargv	sh.c	/^  char *eargv[MAXARGS];$/;"	m	struct:execcmd	file:
+eax	mmu.h	/^  uint eax;          \/\/ More saved state (registers)$/;"	m	struct:taskstate
+eax	x86.h	/^  uint eax;$/;"	m	struct:trapframe
+ebp	mmu.h	/^  uint *ebp;$/;"	m	struct:taskstate
+ebp	proc.h	/^  int ebp;$/;"	m	struct:context
+ebp	x86.h	/^  uint ebp;$/;"	m	struct:trapframe
+ebx	mmu.h	/^  uint ebx;$/;"	m	struct:taskstate
+ebx	proc.h	/^  int ebx;$/;"	m	struct:context
+ebx	x86.h	/^  uint ebx;$/;"	m	struct:trapframe
+echo_args	usertests.c	/^char *echo_args[] = { "echo", "ALL", "TESTS", "PASSED", 0 };$/;"	v
+ecx	mmu.h	/^  uint ecx;$/;"	m	struct:taskstate
+ecx	proc.h	/^  int ecx;$/;"	m	struct:context
+ecx	x86.h	/^  uint ecx;$/;"	m	struct:trapframe
+edi	mmu.h	/^  uint edi;$/;"	m	struct:taskstate
+edi	proc.h	/^  int edi;$/;"	m	struct:context
+edi	x86.h	/^  uint edi;$/;"	m	struct:trapframe
+edx	mmu.h	/^  uint edx;$/;"	m	struct:taskstate
+edx	proc.h	/^  int edx;$/;"	m	struct:context
+edx	x86.h	/^  uint edx;$/;"	m	struct:trapframe
+efile	sh.c	/^  char *efile;$/;"	m	struct:redircmd	file:
+eflags	mmu.h	/^  uint eflags;$/;"	m	struct:taskstate
+eflags	x86.h	/^  uint eflags;$/;"	m	struct:trapframe
+ehsize	elf.h	/^  ushort ehsize;$/;"	m	struct:elfhdr
+eip	mmu.h	/^  uint *eip;         \/\/ Saved state from last task switch$/;"	m	struct:taskstate
+eip	proc.h	/^  int eip;$/;"	m	struct:context
+eip	x86.h	/^  uint eip;$/;"	m	struct:trapframe
+elf	elf.h	/^  uchar elf[12];$/;"	m	struct:elfhdr
+elfhdr	elf.h	/^struct elfhdr {$/;"	s
+entry	elf.h	/^  uint entry;$/;"	m	struct:elfhdr
+entry	mp.h	/^  ushort entry;                 \/\/ entry count$/;"	m	struct:mpconf
+err	x86.h	/^  uint err;$/;"	m	struct:trapframe
+es	mmu.h	/^  ushort es;         \/\/ Even more saved state (segment selectors)$/;"	m	struct:taskstate
+es	x86.h	/^  ushort es;$/;"	m	struct:trapframe
+esi	mmu.h	/^  uint esi;$/;"	m	struct:taskstate
+esi	proc.h	/^  int esi;$/;"	m	struct:context
+esi	x86.h	/^  uint esi;$/;"	m	struct:trapframe
+esp	mmu.h	/^  uint *esp;$/;"	m	struct:taskstate
+esp	proc.h	/^  int esp;$/;"	m	struct:context
+esp	x86.h	/^  uint esp;$/;"	m	struct:trapframe
+esp0	mmu.h	/^  uint esp0;         \/\/ Stack pointers and segment selectors$/;"	m	struct:taskstate
+esp1	mmu.h	/^  uint *esp1;$/;"	m	struct:taskstate
+esp2	mmu.h	/^  uint *esp2;$/;"	m	struct:taskstate
+exec	exec.c	/^exec(char *path, char **argv)$/;"	f
+execcmd	sh.c	/^execcmd(void)$/;"	f
+execcmd	sh.c	/^struct execcmd {$/;"	s	file:
+exectest	usertests.c	/^exectest(void)$/;"	f
+exit	initcode.S	/^exit:$/;"	l
+exit	proc.c	/^exit(void)$/;"	f
+exitwait	usertests.c	/^exitwait(void)$/;"	f
+f	Makefile	/^	dd if=\/dev\/zero of=xv6.img count=10000$/;"	m
+f	Makefile	/^	dd if=bootblock of=xv6.img conv=notrunc$/;"	m
+f	Makefile	/^	dd if=kernel of=xv6.img seek=1 conv=notrunc$/;"	m
+fd	sh.c	/^  int fd;$/;"	m	struct:redircmd	file:
+fdalloc	sysfile.c	/^fdalloc(struct file *f)$/;"	f	file:
+feature	mp.h	/^  uint feature;                 \/\/ feature flags from CPUID instruction$/;"	m	struct:mpproc
+fetchint	syscall.c	/^fetchint(struct proc *p, uint addr, int *ip)$/;"	f
+fetchstr	syscall.c	/^fetchstr(struct proc *p, uint addr, char **pp)$/;"	f
+file	file.c	/^struct file file[NFILE];$/;"	v	typeref:struct:file
+file	file.h	/^struct file {$/;"	s
+file	sh.c	/^  char *file;$/;"	m	struct:redircmd	file:
+file_table_lock	file.c	/^struct spinlock file_table_lock;$/;"	v	typeref:struct:spinlock
+filealloc	file.c	/^filealloc(void)$/;"	f
+fileclose	file.c	/^fileclose(struct file *f)$/;"	f
+filedup	file.c	/^filedup(struct file *f)$/;"	f
+fileinit	file.c	/^fileinit(void)$/;"	f
+fileread	file.c	/^fileread(struct file *f, char *addr, int n)$/;"	f
+filestat	file.c	/^filestat(struct file *f, struct stat *st)$/;"	f
+filesz	elf.h	/^  uint filesz;$/;"	m	struct:proghdr
+filewrite	file.c	/^filewrite(struct file *f, char *addr, int n)$/;"	f
+flags	buf.h	/^  int flags;$/;"	m	struct:buf
+flags	elf.h	/^  uint flags;$/;"	m	struct:elfhdr
+flags	elf.h	/^  uint flags;$/;"	m	struct:proghdr
+flags	fsvar.h	/^  int flags;          \/\/ I_BUSY, I_VALID$/;"	m	struct:inode
+flags	mp.h	/^  uchar flags;                  \/\/ CPU flags$/;"	m	struct:mpproc
+flags	mp.h	/^  uchar flags;                  \/\/ I\/O APIC flags$/;"	m	struct:mpioapic
+fmtname	ls.c	/^fmtname(char *path)$/;"	f
+fork1	sh.c	/^fork1(void)$/;"	f
+forkret	proc.c	/^forkret(void)$/;"	f
+forkret1	trapasm.S	/^forkret1:$/;"	l
+forktest	forktest.c	/^forktest(void)$/;"	f
+forktest	usertests.c	/^forktest(void)$/;"	f
+fourteen	usertests.c	/^fourteen(void)$/;"	f
+free	umalloc.c	/^free(void *ap)$/;"	f
+freeblock	mkfs.c	/^uint freeblock;$/;"	v
+freeinode	mkfs.c	/^uint freeinode = 1;$/;"	v
+freelist	kalloc.c	/^struct run *freelist;$/;"	v	typeref:struct:run
+freep	umalloc.c	/^static Header *freep;$/;"	v	file:
+fs	mmu.h	/^  ushort fs;$/;"	m	struct:taskstate
+fsfd	mkfs.c	/^int fsfd;$/;"	v
+g	mmu.h	/^  uint g : 1;          \/\/ Granularity: limit scaled by 4K when set$/;"	m	struct:segdesc
+gatedesc	mmu.h	/^struct gatedesc {$/;"	s
+gdt	bootasm.S	/^gdt:$/;"	l
+gdt	bootother.S	/^gdt:$/;"	l
+gdt	proc.h	/^  struct segdesc gdt[NSEGS];  \/\/ x86 global descriptor table$/;"	m	struct:cpu	typeref:struct:cpu::segdesc
+gdtdesc	bootasm.S	/^gdtdesc:$/;"	l
+gdtdesc	bootother.S	/^gdtdesc:$/;"	l
+getcallerpcs	spinlock.c	/^getcallerpcs(void *v, uint pcs[])$/;"	f
+getcmd	sh.c	/^getcmd(char *buf, int nbuf)$/;"	f
+gets	ulib.c	/^gets(char *buf, int max)$/;"	f
+gettoken	sh.c	/^gettoken(char **ps, char *es, char **q, char **eq)$/;"	f
+grep	grep.c	/^grep(char *pattern, int fd)$/;"	f
+growproc	proc.c	/^growproc(int n)$/;"	f
+gs	mmu.h	/^  ushort gs;$/;"	m	struct:taskstate
+header	umalloc.c	/^union header {$/;"	u	file:
+holding	spinlock.c	/^holding(struct spinlock *lock)$/;"	f
+i2b	mkfs.c	/^i2b(uint inum)$/;"	f
+ialloc	fs.c	/^ialloc(uint dev, short type)$/;"	f
+ialloc	mkfs.c	/^ialloc(ushort type)$/;"	f
+iappend	mkfs.c	/^iappend(uint inum, void *xp, int n)$/;"	f
+icache	fs.c	/^} icache;$/;"	v	typeref:struct:__anon3
+ide_init	ide.c	/^ide_init(void)$/;"	f
+ide_intr	ide.c	/^ide_intr(void)$/;"	f
+ide_lock	ide.c	/^static struct spinlock ide_lock;$/;"	v	typeref:struct:spinlock	file:
+ide_queue	ide.c	/^static struct buf *ide_queue;$/;"	v	typeref:struct:buf	file:
+ide_rw	ide.c	/^ide_rw(struct buf *b)$/;"	f
+ide_start_request	ide.c	/^ide_start_request(struct buf *b)$/;"	f	file:
+ide_wait_ready	ide.c	/^ide_wait_ready(int check_error)$/;"	f	file:
+idt	trap.c	/^struct gatedesc idt[256];$/;"	v	typeref:struct:gatedesc
+idtinit	trap.c	/^idtinit(void)$/;"	f
+idup	fs.c	/^idup(struct inode *ip)$/;"	f
+iget	fs.c	/^iget(uint dev, uint inum)$/;"	f	file:
+iinit	fs.c	/^iinit(void)$/;"	f
+ilock	fs.c	/^ilock(struct inode *ip)$/;"	f
+imcrp	mp.h	/^  uchar imcrp;$/;"	m	struct:mp
+inb	x86.h	/^inb(ushort port)$/;"	f
+init	initcode.S	/^init:$/;"	l
+initlock	spinlock.c	/^initlock(struct spinlock *lock, char *name)$/;"	f
+initproc	proc.c	/^static struct proc *initproc;$/;"	v	typeref:struct:proc	file:
+ino	stat.h	/^  uint ino;    \/\/ Inode number on device$/;"	m	struct:stat
+inode	fs.c	/^  struct inode inode[NINODE];$/;"	m	struct:__anon3	typeref:struct:__anon3::inode	file:
+inode	fsvar.h	/^struct inode {$/;"	s
+input	console.c	/^} input;$/;"	v	typeref:struct:__anon2
+insl	x86.h	/^insl(int port, void *addr, int cnt)$/;"	f
+intena	proc.h	/^  int intena;                 \/\/ Were interrupts enabled before pushcli? $/;"	m	struct:cpu
+inum	fs.h	/^  ushort inum;$/;"	m	struct:dirent
+inum	fsvar.h	/^  uint inum;          \/\/ Inode number$/;"	m	struct:inode
+ioapic	ioapic.c	/^struct ioapic {$/;"	s	file:
+ioapic	ioapic.c	/^volatile struct ioapic *ioapic;$/;"	v	typeref:struct:ioapic
+ioapic_enable	ioapic.c	/^ioapic_enable(int irq, int cpunum)$/;"	f
+ioapic_id	mp.c	/^uchar ioapic_id;$/;"	v
+ioapic_init	ioapic.c	/^ioapic_init(void)$/;"	f
+ioapic_read	ioapic.c	/^ioapic_read(int reg)$/;"	f	file:
+ioapic_write	ioapic.c	/^ioapic_write(int reg, uint data)$/;"	f	file:
+iomb	mmu.h	/^  ushort iomb;       \/\/ I\/O map base address$/;"	m	struct:taskstate
+ip	file.h	/^  struct inode *ip;$/;"	m	struct:file	typeref:struct:file::inode
+iput	fs.c	/^iput(struct inode *ip)$/;"	f
+iref	usertests.c	/^iref(void)$/;"	f
+irqmask	picirq.c	/^static ushort irqmask = 0xFFFF & ~(1<<IRQ_SLAVE);$/;"	v	file:
+isdirempty	sysfile.c	/^isdirempty(struct inode *dp)$/;"	f	file:
+ismp	mp.c	/^int ismp;$/;"	v
+itrunc	fs.c	/^itrunc(struct inode *ip)$/;"	f	file:
+iunlock	fs.c	/^iunlock(struct inode *ip)$/;"	f
+iunlockput	fs.c	/^iunlockput(struct inode *ip)$/;"	f
+iupdate	fs.c	/^iupdate(struct inode *ip)$/;"	f
+kalloc	kalloc.c	/^kalloc(int n)$/;"	f
+kalloc_lock	kalloc.c	/^struct spinlock kalloc_lock;$/;"	v	typeref:struct:spinlock
+kbd_getc	kbd.c	/^kbd_getc(void)$/;"	f
+kbd_intr	kbd.c	/^kbd_intr(void)$/;"	f
+kfree	kalloc.c	/^kfree(char *v, int len)$/;"	f
+kill	proc.c	/^kill(int pid)$/;"	f
+killed	proc.h	/^  int killed;               \/\/ If non-zero, have been killed$/;"	m	struct:proc
+kinit	kalloc.c	/^kinit(void)$/;"	f
+kstack	proc.h	/^  char *kstack;             \/\/ Bottom of kernel stack for this process$/;"	m	struct:proc
+lapic	lapic.c	/^volatile uint *lapic;  \/\/ Initialized in mp.c$/;"	v
+lapic_eoi	lapic.c	/^lapic_eoi(void)$/;"	f
+lapic_init	lapic.c	/^lapic_init(int c)$/;"	f
+lapic_startap	lapic.c	/^lapic_startap(uchar apicid, uint addr)$/;"	f
+lapicaddr	mp.h	/^  uint *lapicaddr;              \/\/ address of local APIC$/;"	m	struct:mpconf
+lapicw	lapic.c	/^lapicw(int index, int value)$/;"	f	file:
+ldt	mmu.h	/^  ushort ldt;$/;"	m	struct:taskstate
+left	sh.c	/^  struct cmd *left;$/;"	m	struct:listcmd	typeref:struct:listcmd::cmd	file:
+left	sh.c	/^  struct cmd *left;$/;"	m	struct:pipecmd	typeref:struct:pipecmd::cmd	file:
+len	kalloc.c	/^  int len; \/\/ bytes$/;"	m	struct:run	file:
+length	mp.h	/^  uchar length;                 \/\/ 1$/;"	m	struct:mp
+length	mp.h	/^  ushort length;                \/\/ total table length$/;"	m	struct:mpconf
+lgdt	x86.h	/^lgdt(struct segdesc *p, int size)$/;"	f
+lidt	x86.h	/^lidt(struct gatedesc *p, int size)$/;"	f
+lim_15_0	mmu.h	/^  uint lim_15_0 : 16;  \/\/ Low bits of segment limit$/;"	m	struct:segdesc
+lim_19_16	mmu.h	/^  uint lim_19_16 : 4;  \/\/ High bits of segment limit$/;"	m	struct:segdesc
+link	mmu.h	/^  uint link;         \/\/ Old ts selector$/;"	m	struct:taskstate
+linktest	usertests.c	/^linktest(void)$/;"	f
+listcmd	sh.c	/^listcmd(struct cmd *left, struct cmd *right)$/;"	f
+listcmd	sh.c	/^struct listcmd {$/;"	s	file:
+lock	console.c	/^  struct spinlock lock;$/;"	m	struct:__anon2	typeref:struct:__anon2::spinlock	file:
+lock	fs.c	/^  struct spinlock lock;$/;"	m	struct:__anon3	typeref:struct:__anon3::spinlock	file:
+lock	pipe.c	/^  struct spinlock lock;$/;"	m	struct:pipe	typeref:struct:pipe::spinlock	file:
+locked	spinlock.h	/^  uint locked;   \/\/ Is the lock held?$/;"	m	struct:spinlock
+lpt_putc	console.c	/^lpt_putc(int c)$/;"	f	file:
+ls	ls.c	/^ls(char *path)$/;"	f
+ltr	x86.h	/^ltr(ushort sel)$/;"	f
+machine	elf.h	/^  ushort machine;$/;"	m	struct:elfhdr
+magic	elf.h	/^  uint magic;  \/\/ must equal ELF_MAGIC$/;"	m	struct:elfhdr
+main	cat.c	/^main(int argc, char *argv[])$/;"	f
+main	echo.c	/^main(int argc, char *argv[])$/;"	f
+main	forktest.c	/^main(void)$/;"	f
+main	grep.c	/^main(int argc, char *argv[])$/;"	f
+main	init.c	/^main(void)$/;"	f
+main	kill.c	/^main(int argc, char **argv)$/;"	f
+main	ln.c	/^main(int argc, char *argv[])$/;"	f
+main	ls.c	/^main(int argc, char *argv[])$/;"	f
+main	main.c	/^main(void)$/;"	f
+main	mkdir.c	/^main(int argc, char *argv[])$/;"	f
+main	mkfs.c	/^main(int argc, char *argv[])$/;"	f
+main	rm.c	/^main(int argc, char *argv[])$/;"	f
+main	sh.c	/^main(void)$/;"	f
+main	usertests.c	/^main(int argc, char *argv[])$/;"	f
+main	wc.c	/^main(int argc, char *argv[])$/;"	f
+main	zombie.c	/^main(void)$/;"	f
+major	fs.h	/^  short major;          \/\/ Major device number (T_DEV only)$/;"	m	struct:dinode
+major	fsvar.h	/^  short major;$/;"	m	struct:inode
+malloc	umalloc.c	/^malloc(uint nbytes)$/;"	f
+match	grep.c	/^match(char *re, char *text)$/;"	f
+matchhere	grep.c	/^int matchhere(char *re, char *text)$/;"	f
+matchstar	grep.c	/^int matchstar(int c, char *re, char *text)$/;"	f
+mem	proc.h	/^  char *mem;                \/\/ Start of process memory (kernel address)$/;"	m	struct:proc
+mem	usertests.c	/^mem(void)$/;"	f
+memcmp	string.c	/^memcmp(const void *v1, const void *v2, uint n)$/;"	f
+memmove	string.c	/^memmove(void *dst, const void *src, uint n)$/;"	f
+memmove	ulib.c	/^memmove(void *vdst, void *vsrc, int n)$/;"	f
+memset	string.c	/^memset(void *dst, int c, uint n)$/;"	f
+memset	ulib.c	/^memset(void *dst, int c, uint n)$/;"	f
+memsz	elf.h	/^  uint memsz;$/;"	m	struct:proghdr
+microdelay	lapic.c	/^microdelay(int us)$/;"	f	file:
+min	fs.c	25;"	d	file:
+min	mkfs.c	236;"	d	file:
+minor	fs.h	/^  short minor;          \/\/ Minor device number (T_DEV only)$/;"	m	struct:dinode
+minor	fsvar.h	/^  short minor;$/;"	m	struct:inode
+mode	sh.c	/^  int mode;$/;"	m	struct:redircmd	file:
+morecore	umalloc.c	/^morecore(uint nu)$/;"	f	file:
+mp	mp.h	/^struct mp {             \/\/ floating pointer$/;"	s
+mp_bcpu	mp.c	/^mp_bcpu(void)$/;"	f
+mp_config	mp.c	/^mp_config(struct mp **pmp)$/;"	f	file:
+mp_init	mp.c	/^mp_init(void)$/;"	f
+mp_search	mp.c	/^mp_search(void)$/;"	f	file:
+mp_search1	mp.c	/^mp_search1(uchar *addr, int len)$/;"	f	file:
+mpconf	mp.h	/^struct mpconf {         \/\/ configuration table header$/;"	s
+mpioapic	mp.h	/^struct mpioapic {       \/\/ I\/O APIC table entry$/;"	s
+mpmain	main.c	/^mpmain(void)$/;"	f	file:
+mpproc	mp.h	/^struct mpproc {         \/\/ processor table entry$/;"	s
+name	fs.h	/^  char name[DIRSIZ];$/;"	m	struct:dirent
+name	proc.h	/^  char name[16];            \/\/ Process name (debugging)$/;"	m	struct:proc
+name	spinlock.h	/^  char *name;    \/\/ Name of lock.$/;"	m	struct:spinlock
+name	usertests.c	/^char name[3];$/;"	v
+name	usys.S	/^  name: \\$/;"	l
+namecmp	fs.c	/^namecmp(const char *s, const char *t)$/;"	f
+namei	fs.c	/^namei(char *path)$/;"	f
+nameiparent	fs.c	/^nameiparent(char *path, char *name)$/;"	f
+nblocks	fs.h	/^  uint nblocks;      \/\/ Number of data blocks$/;"	m	struct:superblock
+nblocks	mkfs.c	/^int nblocks = 995;$/;"	v
+ncli	proc.h	/^  int ncli;                   \/\/ Depth of pushcli nesting.$/;"	m	struct:cpu
+ncpu	mp.c	/^int ncpu;$/;"	v
+next	buf.h	/^  struct buf *next;$/;"	m	struct:buf	typeref:struct:buf::buf
+next	kalloc.c	/^  struct run *next;$/;"	m	struct:run	typeref:struct:run::run	file:
+nextpid	proc.c	/^int nextpid = 1;$/;"	v
+ninodes	fs.h	/^  uint ninodes;      \/\/ Number of inodes.$/;"	m	struct:superblock
+ninodes	mkfs.c	/^int ninodes = 200;$/;"	v
+nlink	fs.h	/^  short nlink;          \/\/ Number of links to inode in file system$/;"	m	struct:dinode
+nlink	fsvar.h	/^  short nlink;$/;"	m	struct:inode
+nlink	stat.h	/^  short nlink; \/\/ Number of links to file$/;"	m	struct:stat
+normalmap	kbd.h	/^static uchar normalmap[256] =$/;"	v
+nulterminate	sh.c	/^nulterminate(struct cmd *cmd)$/;"	f
+oemlength	mp.h	/^  ushort oemlength;             \/\/ OEM table length$/;"	m	struct:mpconf
+oemtable	mp.h	/^  uint *oemtable;               \/\/ OEM table pointer$/;"	m	struct:mpconf
+oesp	x86.h	/^  uint oesp;      \/\/ useless & ignored$/;"	m	struct:trapframe
+off	file.h	/^  uint off;$/;"	m	struct:file
+off_15_0	mmu.h	/^  uint off_15_0 : 16;   \/\/ low 16 bits of offset in segment$/;"	m	struct:gatedesc
+off_31_16	mmu.h	/^  uint off_31_16 : 16;  \/\/ high bits of offset in segment$/;"	m	struct:gatedesc
+offset	elf.h	/^  uint offset;$/;"	m	struct:proghdr
+ofile	proc.h	/^  struct file *ofile[NOFILE];  \/\/ Open files$/;"	m	struct:proc	typeref:struct:proc::file
+opentest	usertests.c	/^opentest(void)$/;"	f
+outb	x86.h	/^outb(ushort port, uchar data)$/;"	f
+outsl	x86.h	/^outsl(int port, const void *addr, int cnt)$/;"	f
+outw	x86.h	/^outw(ushort port, ushort data)$/;"	f
+p	mmu.h	/^  uint p : 1;           \/\/ Present$/;"	m	struct:gatedesc
+p	mmu.h	/^  uint p : 1;          \/\/ Present$/;"	m	struct:segdesc
+pa	elf.h	/^  uint pa;$/;"	m	struct:proghdr
+pad	ioapic.c	/^  uint pad[3];$/;"	m	struct:ioapic	file:
+pad	runoff	/^pad()$/;"	f
+padding1	mmu.h	/^  ushort padding1;$/;"	m	struct:taskstate
+padding1	x86.h	/^  ushort padding1;$/;"	m	struct:trapframe
+padding10	mmu.h	/^  ushort padding10;$/;"	m	struct:taskstate
+padding2	mmu.h	/^  ushort padding2;$/;"	m	struct:taskstate
+padding2	x86.h	/^  ushort padding2;$/;"	m	struct:trapframe
+padding3	mmu.h	/^  ushort padding3;$/;"	m	struct:taskstate
+padding3	x86.h	/^  ushort padding3;$/;"	m	struct:trapframe
+padding4	mmu.h	/^  ushort padding4;$/;"	m	struct:taskstate
+padding4	x86.h	/^  ushort padding4;$/;"	m	struct:trapframe
+padding5	mmu.h	/^  ushort padding5;$/;"	m	struct:taskstate
+padding6	mmu.h	/^  ushort padding6;$/;"	m	struct:taskstate
+padding7	mmu.h	/^  ushort padding7;$/;"	m	struct:taskstate
+padding8	mmu.h	/^  ushort padding8;$/;"	m	struct:taskstate
+padding9	mmu.h	/^  ushort padding9;$/;"	m	struct:taskstate
+panic	console.c	/^panic(char *s)$/;"	f
+panic	sh.c	/^panic(char *s)$/;"	f
+panicked	console.c	/^int panicked = 0;$/;"	v
+parent	proc.h	/^  struct proc *parent;      \/\/ Parent process$/;"	m	struct:proc	typeref:struct:proc::proc
+parseblock	sh.c	/^parseblock(char **ps, char *es)$/;"	f
+parsecmd	sh.c	/^parsecmd(char *s)$/;"	f
+parseexec	sh.c	/^parseexec(char **ps, char *es)$/;"	f
+parseline	sh.c	/^parseline(char **ps, char *es)$/;"	f
+parsepipe	sh.c	/^parsepipe(char **ps, char *es)$/;"	f
+parseredirs	sh.c	/^parseredirs(struct cmd *cmd, char **ps, char *es)$/;"	f
+pcs	spinlock.h	/^  uint pcs[10];  \/\/ The call stack (an array of program counters)$/;"	m	struct:spinlock
+peek	sh.c	/^peek(char **ps, char *es, char *toks)$/;"	f
+phentsize	elf.h	/^  ushort phentsize;$/;"	m	struct:elfhdr
+phnum	elf.h	/^  ushort phnum;$/;"	m	struct:elfhdr
+phoff	elf.h	/^  uint phoff;$/;"	m	struct:elfhdr
+physaddr	mp.h	/^  void *physaddr;               \/\/ phys addr of MP config table$/;"	m	struct:mp
+pic_enable	picirq.c	/^pic_enable(int irq)$/;"	f
+pic_init	picirq.c	/^pic_init(void)$/;"	f
+pic_setmask	picirq.c	/^pic_setmask(ushort mask)$/;"	f	file:
+pid	proc.h	/^  int pid;                  \/\/ Process ID$/;"	m	struct:proc
+pinit	proc.c	/^pinit(void)$/;"	f
+pipe	file.h	/^  struct pipe *pipe;$/;"	m	struct:file	typeref:struct:file::pipe
+pipe	pipe.c	/^struct pipe {$/;"	s	file:
+pipe1	usertests.c	/^pipe1(void)$/;"	f
+pipealloc	pipe.c	/^pipealloc(struct file **f0, struct file **f1)$/;"	f
+pipeclose	pipe.c	/^pipeclose(struct pipe *p, int writable)$/;"	f
+pipecmd	sh.c	/^pipecmd(struct cmd *left, struct cmd *right)$/;"	f
+pipecmd	sh.c	/^struct pipecmd {$/;"	s	file:
+piperead	pipe.c	/^piperead(struct pipe *p, char *addr, int n)$/;"	f
+pipewrite	pipe.c	/^pipewrite(struct pipe *p, char *addr, int n)$/;"	f
+popcli	spinlock.c	/^popcli(void)$/;"	f
+preempt	usertests.c	/^preempt(void)$/;"	f
+prev	buf.h	/^  struct buf *prev; \/\/ LRU cache list$/;"	m	struct:buf	typeref:struct:buf::buf
+printf	forktest.c	/^printf(int fd, char *s, ...)$/;"	f
+printf	printf.c	/^printf(int fd, char *fmt, ...)$/;"	f
+printint	console.c	/^printint(int xx, int base, int sgn)$/;"	f
+printint	printf.c	/^printint(int fd, int xx, int base, int sgn)$/;"	f	file:
+proc	proc.c	/^struct proc proc[NPROC];$/;"	v	typeref:struct:proc
+proc	proc.h	/^struct proc {$/;"	s
+proc_state	proc.h	/^enum proc_state { UNUSED, EMBRYO, SLEEPING, RUNNABLE, RUNNING, ZOMBIE };$/;"	g
+proc_table_lock	proc.c	/^struct spinlock proc_table_lock;$/;"	v	typeref:struct:spinlock
+procdump	proc.c	/^procdump(void)$/;"	f
+product	mp.h	/^  uchar product[20];            \/\/ product id$/;"	m	struct:mpconf
+proghdr	elf.h	/^struct proghdr {$/;"	s
+protcseg	bootasm.S	/^protcseg:$/;"	l
+protcseg	bootother.S	/^protcseg:$/;"	l
+ptr	umalloc.c	/^    union header *ptr;$/;"	m	struct:header::__anon4	typeref:union:header::__anon4::header	file:
+pushcli	spinlock.c	/^pushcli(void)$/;"	f
+putc	printf.c	/^putc(int fd, char c)$/;"	f	file:
+qnext	buf.h	/^  struct buf *qnext; \/\/ disk queue$/;"	m	struct:buf	typeref:struct:buf::buf
+r	console.c	/^  uint r;  \/\/ Read index$/;"	m	struct:__anon2	file:
+read	dev.h	/^  int (*read)(struct inode*, char*, int);$/;"	m	struct:devsw
+read_ebp	x86.h	/^read_ebp(void)$/;"	f
+read_eflags	x86.h	/^read_eflags(void)$/;"	f
+readable	file.h	/^  char readable;$/;"	m	struct:file
+readi	fs.c	/^readi(struct inode *ip, char *dst, uint off, uint n)$/;"	f
+readopen	pipe.c	/^  int readopen;   \/\/ read fd is still open$/;"	m	struct:pipe	file:
+readp	pipe.c	/^  uint readp;     \/\/ next index to read$/;"	m	struct:pipe	file:
+readsb	fs.c	/^readsb(int dev, struct superblock *sb)$/;"	f	file:
+readsect	bootmain.c	/^readsect(void *dst, uint offset)$/;"	f
+readseg	bootmain.c	/^readseg(uint va, uint count, uint offset)$/;"	f
+redircmd	sh.c	/^redircmd(struct cmd *subcmd, char *file, char *efile, int mode, int fd)$/;"	f
+redircmd	sh.c	/^struct redircmd {$/;"	s	file:
+ref	file.h	/^  int ref; \/\/ reference count$/;"	m	struct:file
+ref	fsvar.h	/^  int ref;            \/\/ Reference count$/;"	m	struct:inode
+reg	ioapic.c	/^  uint reg;$/;"	m	struct:ioapic	file:
+release	spinlock.c	/^release(struct spinlock *lock)$/;"	f
+reserved	mp.h	/^  uchar reserved;$/;"	m	struct:mpconf
+reserved	mp.h	/^  uchar reserved[3];$/;"	m	struct:mp
+reserved	mp.h	/^  uchar reserved[8];$/;"	m	struct:mpproc
+right	sh.c	/^  struct cmd *right;$/;"	m	struct:listcmd	typeref:struct:listcmd::cmd	file:
+right	sh.c	/^  struct cmd *right;$/;"	m	struct:pipecmd	typeref:struct:pipecmd::cmd	file:
+rinode	mkfs.c	/^rinode(uint inum, struct dinode *ip)$/;"	f
+rmdot	usertests.c	/^rmdot(void)$/;"	f
+rsect	mkfs.c	/^rsect(uint sec, void *buf)$/;"	f
+rsv1	mmu.h	/^  uint rsv1 : 1;       \/\/ Reserved$/;"	m	struct:segdesc
+rsv1	mmu.h	/^  uint rsv1 : 3;        \/\/ reserved(should be zero I guess)$/;"	m	struct:gatedesc
+run	kalloc.c	/^struct run {$/;"	s	file:
+runcmd	sh.c	/^runcmd(struct cmd *cmd)$/;"	f
+s	mmu.h	/^  uint s : 1;           \/\/ must be 0 (system)$/;"	m	struct:gatedesc
+s	mmu.h	/^  uint s : 1;          \/\/ 0 = system, 1 = application$/;"	m	struct:segdesc
+s	umalloc.c	/^  } s;$/;"	m	union:header	typeref:struct:header::__anon4	file:
+safestrcpy	string.c	/^safestrcpy(char *s, const char *t, int n)$/;"	f
+sb	mkfs.c	/^struct superblock sb;$/;"	v	typeref:struct:superblock
+sched	proc.c	/^sched(void)$/;"	f
+scheduler	proc.c	/^scheduler(void)$/;"	f
+sector	buf.h	/^  uint sector;$/;"	m	struct:buf
+segdesc	mmu.h	/^struct segdesc {$/;"	s
+setupsegs	proc.c	/^setupsegs(struct proc *p)$/;"	f
+sh_args	init.c	/^char *sh_args[] = { "sh", 0 };$/;"	v
+sharedfd	usertests.c	/^sharedfd(void)$/;"	f
+shentsize	elf.h	/^  ushort shentsize;$/;"	m	struct:elfhdr
+shiftcode	kbd.h	/^static uchar shiftcode[256] =$/;"	v
+shiftmap	kbd.h	/^static uchar shiftmap[256] =$/;"	v
+shnum	elf.h	/^  ushort shnum;$/;"	m	struct:elfhdr
+shoff	elf.h	/^  uint shoff;$/;"	m	struct:elfhdr
+shstrndx	elf.h	/^  ushort shstrndx;$/;"	m	struct:elfhdr
+signature	mp.h	/^  uchar signature[4];           \/\/ "PCMP"$/;"	m	struct:mpconf
+signature	mp.h	/^  uchar signature[4];           \/\/ "_MP_"$/;"	m	struct:mp
+signature	mp.h	/^  uchar signature[4];           \/\/ CPU signature$/;"	m	struct:mpproc
+size	fs.h	/^  uint size;            \/\/ Size of file (bytes)$/;"	m	struct:dinode
+size	fs.h	/^  uint size;         \/\/ Size of file system image (blocks)$/;"	m	struct:superblock
+size	fsvar.h	/^  uint size;$/;"	m	struct:inode
+size	mkfs.c	/^int size = 1024;$/;"	v
+size	stat.h	/^  uint size;   \/\/ Size of file in bytes$/;"	m	struct:stat
+size	umalloc.c	/^    uint size;$/;"	m	struct:header::__anon4	file:
+skipelem	fs.c	/^skipelem(char *path, char *name)$/;"	f	file:
+sleep	proc.c	/^sleep(void *chan, struct spinlock *lk)$/;"	f
+specrev	mp.h	/^  uchar specrev;                \/\/ [14]$/;"	m	struct:mp
+spin	bootasm.S	/^spin:$/;"	l
+spinlock	spinlock.h	/^struct spinlock {$/;"	s
+ss	mmu.h	/^  ushort ss;$/;"	m	struct:taskstate
+ss	x86.h	/^  ushort ss;$/;"	m	struct:trapframe
+ss0	mmu.h	/^  ushort ss0;        \/\/   after an increase in privilege level$/;"	m	struct:taskstate
+ss1	mmu.h	/^  ushort ss1;$/;"	m	struct:taskstate
+ss2	mmu.h	/^  ushort ss2;$/;"	m	struct:taskstate
+start	bootasm.S	/^start:$/;"	l
+start	bootother.S	/^start:$/;"	l
+start	initcode.S	/^start:$/;"	l
+stat	stat.h	/^struct stat {$/;"	s
+stat	ulib.c	/^stat(char *n, struct stat *st)$/;"	f
+state	proc.h	/^  enum proc_state state;    \/\/ Process state$/;"	m	struct:proc	typeref:enum:proc::proc_state
+stati	fs.c	/^stati(struct inode *ip, struct stat *st)$/;"	f
+stdout	usertests.c	/^int stdout = 1;$/;"	v
+sti	x86.h	/^sti(void)$/;"	f
+strchr	ulib.c	/^strchr(const char *s, char c)$/;"	f
+strcmp	ulib.c	/^strcmp(const char *p, const char *q)$/;"	f
+strcpy	ulib.c	/^strcpy(char *s, char *t)$/;"	f
+strlen	string.c	/^strlen(const char *s)$/;"	f
+strlen	ulib.c	/^strlen(char *s)$/;"	f
+strncmp	string.c	/^strncmp(const char *p, const char *q, uint n)$/;"	f
+strncpy	string.c	/^strncpy(char *s, const char *t, int n)$/;"	f
+subdir	usertests.c	/^subdir(void)$/;"	f
+sum	mp.c	/^sum(uchar *addr, int len)$/;"	f	file:
+superblock	fs.h	/^struct superblock {$/;"	s
+swtch	swtch.S	/^swtch:$/;"	l
+symbols	sh.c	/^char symbols[] = "<|>&;()";$/;"	v
+sys_chdir	sysfile.c	/^sys_chdir(void)$/;"	f
+sys_close	sysfile.c	/^sys_close(void)$/;"	f
+sys_dup	sysfile.c	/^sys_dup(void)$/;"	f
+sys_exec	sysfile.c	/^sys_exec(void)$/;"	f
+sys_exit	sysproc.c	/^sys_exit(void)$/;"	f
+sys_fork	sysproc.c	/^sys_fork(void)$/;"	f
+sys_fstat	sysfile.c	/^sys_fstat(void)$/;"	f
+sys_getpid	sysproc.c	/^sys_getpid(void)$/;"	f
+sys_kill	sysproc.c	/^sys_kill(void)$/;"	f
+sys_link	sysfile.c	/^sys_link(void)$/;"	f
+sys_mkdir	sysfile.c	/^sys_mkdir(void)$/;"	f
+sys_mknod	sysfile.c	/^sys_mknod(void)$/;"	f
+sys_open	sysfile.c	/^sys_open(void)$/;"	f
+sys_pipe	sysfile.c	/^sys_pipe(void)$/;"	f
+sys_read	sysfile.c	/^sys_read(void)$/;"	f
+sys_sbrk	sysproc.c	/^sys_sbrk(void)$/;"	f
+sys_sleep	sysproc.c	/^sys_sleep(void)$/;"	f
+sys_unlink	sysfile.c	/^sys_unlink(void)$/;"	f
+sys_wait	sysproc.c	/^sys_wait(void)$/;"	f
+sys_write	sysfile.c	/^sys_write(void)$/;"	f
+syscall	syscall.c	/^syscall(void)$/;"	f
+syscalls	syscall.c	/^static int (*syscalls[])(void) = {$/;"	v	file:
+sz	proc.h	/^  uint sz;                  \/\/ Size of process memory (bytes)$/;"	m	struct:proc
+t	mmu.h	/^  ushort t;          \/\/ Trap on task switch$/;"	m	struct:taskstate
+taskstate	mmu.h	/^struct taskstate {$/;"	s
+tf	proc.h	/^  struct trapframe *tf;     \/\/ Trap frame for current interrupt$/;"	m	struct:proc	typeref:struct:proc::trapframe
+ticks	trap.c	/^int ticks;$/;"	v
+tickslock	trap.c	/^struct spinlock tickslock;$/;"	v	typeref:struct:spinlock
+timer_init	timer.c	/^timer_init(void)$/;"	f
+togglecode	kbd.h	/^static uchar togglecode[256] =$/;"	v
+trap	trap.c	/^trap(struct trapframe *tf)$/;"	f
+trapframe	x86.h	/^struct trapframe {$/;"	s
+trapno	x86.h	/^  uint trapno;$/;"	m	struct:trapframe
+trapret	trapasm.S	/^trapret:$/;"	l
+ts	proc.h	/^  struct taskstate ts;        \/\/ Used by x86 to find stack for interrupt$/;"	m	struct:cpu	typeref:struct:cpu::taskstate
+tvinit	trap.c	/^tvinit(void)$/;"	f
+twofiles	usertests.c	/^twofiles(void)$/;"	f
+type	elf.h	/^  uint type;$/;"	m	struct:proghdr
+type	elf.h	/^  ushort type;$/;"	m	struct:elfhdr
+type	file.h	/^  enum { FD_CLOSED, FD_NONE, FD_PIPE, FD_INODE } type;$/;"	m	struct:file	typeref:enum:file::__anon1
+type	fs.h	/^  short type;           \/\/ File type$/;"	m	struct:dinode
+type	fsvar.h	/^  short type;         \/\/ copy of disk inode$/;"	m	struct:inode
+type	mmu.h	/^  uint type : 4;        \/\/ type(STS_{TG,IG32,TG32})$/;"	m	struct:gatedesc
+type	mmu.h	/^  uint type : 4;       \/\/ Segment type (see STS_ constants)$/;"	m	struct:segdesc
+type	mp.h	/^  uchar type;                   \/\/ MP system config type$/;"	m	struct:mp
+type	mp.h	/^  uchar type;                   \/\/ entry type (0)$/;"	m	struct:mpproc
+type	mp.h	/^  uchar type;                   \/\/ entry type (2)$/;"	m	struct:mpioapic
+type	sh.c	/^  int type;$/;"	m	struct:backcmd	file:
+type	sh.c	/^  int type;$/;"	m	struct:cmd	file:
+type	sh.c	/^  int type;$/;"	m	struct:execcmd	file:
+type	sh.c	/^  int type;$/;"	m	struct:listcmd	file:
+type	sh.c	/^  int type;$/;"	m	struct:pipecmd	file:
+type	sh.c	/^  int type;$/;"	m	struct:redircmd	file:
+type	stat.h	/^  short type;  \/\/ Type of file$/;"	m	struct:stat
+uchar	types.h	/^typedef unsigned char  uchar;$/;"	t
+uint	types.h	/^typedef unsigned int   uint;$/;"	t
+unlinkread	usertests.c	/^unlinkread(void)$/;"	f
+use_console_lock	console.c	/^int use_console_lock = 0;$/;"	v
+usedblocks	mkfs.c	/^uint usedblocks;$/;"	v
+userinit	proc.c	/^userinit(void)$/;"	f
+ushort	types.h	/^typedef unsigned short ushort;$/;"	t
+va	elf.h	/^  uint va;$/;"	m	struct:proghdr
+version	elf.h	/^  uint version;$/;"	m	struct:elfhdr
+version	mp.h	/^  uchar version;                \/\/ I\/O APIC version$/;"	m	struct:mpioapic
+version	mp.h	/^  uchar version;                \/\/ [14]$/;"	m	struct:mpconf
+version	mp.h	/^  uchar version;                \/\/ local APIC verison$/;"	m	struct:mpproc
+w	console.c	/^  uint w;  \/\/ Write index$/;"	m	struct:__anon2	file:
+wait	proc.c	/^wait(void)$/;"	f
+waitdisk	bootmain.c	/^waitdisk(void)$/;"	f
+wakeup	proc.c	/^wakeup(void *chan)$/;"	f
+wakeup1	proc.c	/^wakeup1(void *chan)$/;"	f	file:
+wc	wc.c	/^wc(int fd, char *name)$/;"	f
+whitespace	sh.c	/^char whitespace[] = " \\t\\r\\n\\v";$/;"	v
+winode	mkfs.c	/^winode(uint inum, struct dinode *ip)$/;"	f
+writable	file.h	/^  char writable;$/;"	m	struct:file
+write	dev.h	/^  int (*write)(struct inode*, char*, int);$/;"	m	struct:devsw
+write_eflags	x86.h	/^write_eflags(uint eflags)$/;"	f
+writei	fs.c	/^writei(struct inode *ip, char *src, uint off, uint n)$/;"	f
+writeopen	pipe.c	/^  int writeopen;  \/\/ write fd is still open$/;"	m	struct:pipe	file:
+writep	pipe.c	/^  uint writep;    \/\/ next index to write$/;"	m	struct:pipe	file:
+writetest	usertests.c	/^writetest(void)$/;"	f
+writetest1	usertests.c	/^writetest1(void)$/;"	f
+wsect	mkfs.c	/^wsect(uint sec, void *buf)$/;"	f
+x	umalloc.c	/^  Align x;$/;"	m	union:header	file:
+xchecksum	mp.h	/^  uchar xchecksum;              \/\/ extended table checksum$/;"	m	struct:mpconf
+xchg	x86.h	/^xchg(volatile uint *addr, uint newval)$/;"	f
+xint	mkfs.c	/^xint(uint x)$/;"	f
+xlength	mp.h	/^  ushort xlength;               \/\/ extended table length$/;"	m	struct:mpconf
+xshort	mkfs.c	/^xshort(ushort x)$/;"	f
+yield	proc.c	/^yield(void)$/;"	f
+zeroes	mkfs.c	/^char zeroes[512];$/;"	v

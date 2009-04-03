@@ -1,9 +1,11 @@
+<<<<<<< .mine
 #include "types.h"
 #include "defs.h"
 #include "param.h"
 #include "mmu.h"
 #include "proc.h"
 #include "x86.h"
+#include "dev/pci.h"
 
 static void bootothers(void);
 static void mpmain(void) __attribute__((noreturn));
@@ -27,6 +29,7 @@ main(void)
   ioapic_init();   // another interrupt controller
   kinit();         // physical memory allocator
   tvinit();        // trap vectors
+  pci_init();
   fileinit();      // file table
   iinit();         // inode cache
   console_init();  // I/O devices & their interrupts
@@ -83,4 +86,3 @@ bootothers(void)
       ;
   }
 }
-
